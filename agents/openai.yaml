@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kahoot! Import File Auditor"
+  short_description: "逐題查核 Kahoot 題庫的課綱、素養、迷思誘答、答案與年段用詞"
+  default_prompt: "請使用 $audit-kahoot-xlsx 查核我提供的 Kahoot! Excel 題庫，產生逐題審查報告與修正建議。"
