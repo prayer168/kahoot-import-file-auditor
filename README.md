@@ -12,6 +12,8 @@
 - Distractor plausibility and the misconceptions or reasoning errors they may represent
 - Wording, reading load, ambiguity, missing figures or experimental conditions, and expected response time
 - Current Kahoot! spreadsheet structure, answer indices, time values, and conservative length checks
+- A/B/C/待確認 classifications by question and review dimension
+- Correction logs, corrected import workbooks, and post-correction re-audits when requested
 
 The skill separates confirmed evidence, reasoned inference, pending verification, and insufficient data. Without student response data it reports expected distractor quality only; it does not claim measured difficulty or discrimination.
 
@@ -49,7 +51,7 @@ Example:
 
 ## Version
 
-Current version: **1.0.0**
+Current version: **2.0.0**
 
 Repository: [prayer168/kahoot-import-file-auditor](https://github.com/prayer168/kahoot-import-file-auditor)
 
@@ -69,6 +71,8 @@ Repository: [prayer168/kahoot-import-file-auditor](https://github.com/prayer168/
 - 錯誤選項的合理性，以及可能反映的迷思概念或推理錯誤
 - 題目用詞、閱讀負荷、歧義、缺少圖表或實驗條件，以及預期作答時間
 - Kahoot! Excel 結構、答案編號、時間值與保守字數限制
+- 依題號與查核向度列出 A／B／C／待確認分級
+- 使用者要求時輸出訂正對照、修正版匯入檔與修正後複審結果
 
 技能會區分已確認證據、合理推論、待查證項目與資料不足。若沒有學生作答資料，只會報告預期的誘答品質，不會宣稱已測得難度或鑑別度。
 
@@ -106,6 +110,6 @@ $audit-kahoot-xlsx
 
 ## 版本
 
-目前版本：**1.0.0**
+目前版本：**2.0.0**
 
 Repository：[prayer168/kahoot-import-file-auditor](https://github.com/prayer168/kahoot-import-file-auditor)
